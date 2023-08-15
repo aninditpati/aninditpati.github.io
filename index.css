@@ -80,3 +80,9 @@ nav {
   display: block;
   padding: 1rem;
 }
+
+.headername{
+  color:white;
+  font-size: 25px;
+  padding: 1rem;
+  }
