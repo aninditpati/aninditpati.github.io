@@ -46,8 +46,15 @@ h3:hover {
   }
 
 a {
-  color: white;
+  color: rgb(255, 162, 0);
   text-decoration: none;
+  font-size: 30px;
+
+  transition: color 0.25s;
+}
+
+a:hover {
+  color: rgb(125, 75, 241);
 }
 
 nav {
@@ -65,11 +72,9 @@ nav {
 
 .nav-items li {
   display: inline-block;
-  color: white;
 }
 
 .nav-items li a {
   display: block;
   padding: 1rem;
-  color: white;
 }
