@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Finlandica', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(white,white);
+  background-attachment: fixed;
+  height: 2900px;
+}
+
+.fullwidth{
+  width: 100%;
+  text-align: center;
+}
+
+.nicegrad {
+  font-size: 72px;
+  background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  position: sticky;
+}
+
+.nav-items {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-items li {
+  display: inline-block;
+  color: white;
+}
+
+.nav-items li a {
+  display: block;
+  padding: 1rem;
+  color: white;
+}
