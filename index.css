@@ -25,13 +25,25 @@ h1 {
   color: white;
 }
 
+h1:hover {
+  color: rgb(137, 97, 232);
+  }
+
 h2 {
   color: white;
 }
 
+h2:hover {
+  color: rgb(137, 97, 232);
+  }
+
 h3 {
   color: white;
 }
+
+h3:hover {
+  color: rgb(137, 97, 232);
+  }
 
 a {
   color: white;
