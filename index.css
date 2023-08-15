@@ -17,9 +17,7 @@ body {
 
 .nicegrad {
   font-size: 72px;
-  background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
 }
 
 
@@ -41,13 +39,16 @@ a {
 }
 
 nav {
-  position: sticky;
+  position: fixed;
+  top: 0px;
+  right: 0px;
 }
 
 .nav-items {
   margin: 0;
   padding: 0;
   display: flex;
+  float: right;
 }
 
 .nav-items li {
