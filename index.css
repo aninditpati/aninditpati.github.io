@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  background-image: linear-gradient(rgb(0, 0, 0),rgb(0, 217, 255));
+  background-image: linear-gradient(rgb(158, 121, 105),rgb(158, 121, 105), rgb(0, 217, 255));
   background-attachment: fixed;
   height: 2900px;
 }
@@ -16,7 +16,7 @@ body {
 }
 
 .nicegrad {
-  font-size: 72px;
+  font-size: 72px; margin-top: 300px;
   color: white;
 }
 
@@ -26,7 +26,7 @@ h1 {
 }
 
 h1:hover {
-  color: rgb(137, 97, 232);
+  color: rgb(0, 110, 255);
   }
 
 h2 {
@@ -34,7 +34,7 @@ h2 {
 }
 
 h2:hover {
-  color: rgb(137, 97, 232);
+  color: rgb(0, 110, 255);
   }
 
 h3 {
@@ -42,25 +42,27 @@ h3 {
 }
 
 h3:hover {
-  color: rgb(137, 97, 232);
+  color: rgb(0, 110, 255);
   }
 
 a {
   color: rgb(255, 162, 0);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
 
   transition: color 0.25s;
 }
 
 a:hover {
-  color: rgb(125, 75, 241);
+  color: rgb(0, 110, 255);
 }
 
 nav {
   position: fixed;
   top: 0px;
   right: 0px;
+  width: 100%;
+  background-color: rgb(36, 35, 35);
 }
 
 .nav-items {
