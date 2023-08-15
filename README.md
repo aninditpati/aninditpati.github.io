@@ -1,2 +1,2 @@
-# poisonpati
-Website for poisonpati 
+# aninditpati
+Website for aninditpati 
