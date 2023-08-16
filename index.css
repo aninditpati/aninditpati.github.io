@@ -20,7 +20,6 @@ body {
   color: white;
 }
 
-
 h1 {
   color: white;
 }
@@ -82,7 +81,6 @@ nav {
 
 .navright {
   position: fixed; 
-  float: right;
   right: 0%;
   top: 0%;
 }
@@ -91,9 +89,18 @@ nav {
   display: inline-block;
 }
 
-.nav-items li a {
-  display: block;
+
+.larget {
   padding: 1rem;
+  display: block;
+}
+
+.logog{
+  padding: 0px;
+  margin: 0px;
+  padding-right: 10px;
+  padding-top: 12.5px;
+  height: 45px;
 }
 
 .headername{
