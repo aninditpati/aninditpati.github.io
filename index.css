@@ -65,9 +65,26 @@ nav {
   background-color: rgb(36, 35, 35);
 }
 
-.nav-items {
+.nav-items{
   margin: 0;
   padding: 0;
+}
+
+.navleft {
+  position: fixed;
+  float: left;
+}
+
+.navcenter {
+  text-align: center; 
+  width: 100%;
+}
+
+.navright {
+  position: fixed; 
+  float: right;
+  right: 0%;
+  top: 0%;
 }
 
 .nav-items li {
