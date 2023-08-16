@@ -68,8 +68,6 @@ nav {
 .nav-items {
   margin: 0;
   padding: 0;
-  display: flex;
-  float: right;
 }
 
 .nav-items li {
