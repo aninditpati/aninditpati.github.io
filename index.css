@@ -95,12 +95,19 @@ nav {
   display: block;
 }
 
-.logog{
-  padding: 0px;
+.logo{
+  padding: 5px;
   margin: 0px;
-  padding-right: 10px;
-  padding-top: 12.5px;
-  height: 45px;
+  margin-right: 10px;
+  margin-top: 9px;
+  height: 40px;
+  border-radius: 10px;
+  transition: background-color 0.25s;
+  cursor:pointer
+}
+
+.logo:hover{
+  background-color: rgb(11, 120, 188);
 }
 
 .headername{
