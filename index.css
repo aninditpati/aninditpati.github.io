@@ -110,11 +110,12 @@ nav {
   margin-top: 7px;
   height: 45px;
   border-radius: 10px;
+  transition: background-color 0.25s; 
 }
 
 
 .logo:hover{
-  background-color: blue;
+  background-color: rgb(5, 138, 210);
 }
 
 
