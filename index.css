@@ -123,19 +123,18 @@ nav {
   
 .project-title {
   font-size: 40px;
-  width: 100%;
-  color:white
+  color:white;
 }
 
 .projectbox {
   width: 90%;
-  padding-top: 25px;
+  padding-top: 0px;
   padding-bottom: 25px;
   margin-left: 5%;
-  display: flex;
   border: 9px solid rgb(108, 4, 4);
   border-radius: 15px;
   background-color: black; 
+  text-align: center;
 }
 
 .project-inside-box {
@@ -153,4 +152,6 @@ nav {
   color:white
 }
 
-
+.project-list-holder {
+  display: flex;
+}
