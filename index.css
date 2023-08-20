@@ -24,25 +24,19 @@ h1 {
   color: white;
 }
 
-h1:hover {
-  color: rgb(0, 110, 255);
-  }
+
 
 h2 {
   color: white;
 }
 
-h2:hover {
-  color: rgb(0, 110, 255);
-  }
+
 
 h3 {
   color: white;
 }
 
-h3:hover {
-  color: rgb(0, 110, 255);
-  }
+
 
 a {
   color: rgb(255, 162, 0);
@@ -126,18 +120,37 @@ nav {
   padding: 1rem;
   }
 
+  
+.project-title {
+  font-size: 40px;
+  width: 100%;
+  color:white
+}
+
 .projectbox {
   width: 90%;
   padding-top: 25px;
   padding-bottom: 25px;
   margin-left: 5%;
   display: flex;
-  background-color: red; 
+  border: 9px solid rgb(108, 4, 4);
+  border-radius: 15px;
+  background-color: black; 
 }
 
-.project-tile {
+.project-inside-box {
   width: 28%;
   margin-left: 4%;
   height: 200px;
-  background-color: rgb(6, 157, 162);
+  text-align: center;
+  border: 7px solid blue; 
+  border-radius: 15px;
+  background-color: rgb(3, 52, 54);
 }
+
+.projectbox-text {
+  font-size: 30px;
+  color:white
+}
+
+
