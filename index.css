@@ -122,7 +122,7 @@ nav {
 
   
 .project-title {
-  font-size: 40px;
+  font-size: 50px;
   color:white;
 }
 
@@ -144,14 +144,26 @@ nav {
   text-align: center;
   border: 7px solid blue; 
   border-radius: 15px;
-  background-color: rgb(3, 52, 54);
+  background-color: rgb(0, 0, 0);
 }
 
 .projectbox-text {
-  font-size: 30px;
-  color:white
+  font-size: 35px;
+  color:rgb(40, 163, 182)
 }
 
 .project-list-holder {
   display: flex;
+}
+
+.projectbox-image {
+  height: 100px;
+  border-radius: 15px;
+  height: 100px;
+
+}
+
+.projectbox-image-description {
+  font-size: 25px;
+  color:rgb(5, 114, 96)
 }
