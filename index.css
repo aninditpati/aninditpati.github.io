@@ -125,3 +125,20 @@ nav {
   font-size: 25px;
   padding: 1rem;
   }
+
+.projectbox {
+width: 90%;
+padding: 8px;
+margin-left: 5%;
+height:fit-content; 
+background-color: red; 
+}
+
+.project-tile {
+width: 28%;
+margin-left: 4%;
+height: 200px;
+float: left;
+background-color: rgb(6, 157, 162);
+
+}
