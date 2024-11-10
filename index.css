@@ -175,3 +175,24 @@ nav {
 .arrowcircle:hover {
   background-color: rgb(100, 164, 225);
 }
+
+.popbottom {
+  max-height: 50px;
+  width: 70px;
+  float: top;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+.popbottom:hover {
+  max-height: 150px;
+  overflow: hidden;
+}
+
+.poptext{
+  color: rgb(22, 119, 217);
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
